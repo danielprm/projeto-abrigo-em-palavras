@@ -1,0 +1,91 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 252 100% 99%;
+    --foreground: 240 10% 3.9%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 240 10% 3.9%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 240 10% 3.9%;
+
+    --primary: 260 60% 55%;
+    --primary-foreground: 0 0% 98%;
+
+    --secondary: 270 100% 98%;
+    --secondary-foreground: 240 5.9% 10%;
+
+    --muted: 240 4.8% 95.9%;
+    --muted-foreground: 240 3.8% 46.1%;
+
+    --accent: 270 80% 96%;
+    --accent-foreground: 240 5.9% 10%;
+
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 0 0% 98%;
+
+    --border: 240 5.9% 90%;
+    --input: 240 5.9% 90%;
+    --ring: 260 60% 55%;
+
+    --radius: 0.5rem;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground font-sans;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-serif;
+  }
+  
+  .container {
+    @apply px-4 md:px-6;
+  }
+
+  .section {
+    @apply py-12 md:py-16;
+  }
+
+  .section-title {
+    @apply text-3xl md:text-4xl font-semibold mb-6 text-center font-serif;
+  }
+  
+  .section-subtitle {
+    @apply text-lg md:text-xl text-muted-foreground mb-10 max-w-2xl mx-auto text-center;
+  }
+
+  .card-hover {
+    @apply transition-all duration-300 hover:shadow-md hover:-translate-y-1;
+  }
+
+  .gradient-bg {
+    @apply bg-gradient-to-r from-soft-purple/50 to-soft-blue/50;
+  }
+}
+
+/* Hide Lovable elements */
+a[href*="lovable.dev"], 
+iframe[src*="lovable.dev"], 
+div[style*="Edit with Lovable"], 
+.lovable-badge {
+  display: none !important;
+  opacity: 0 !important;
+  visibility: hidden !important;
+  pointer-events: none !important;
+  position: absolute !important;
+  z-index: -9999 !important;
+}

@@ -113,6 +113,6 @@ Commit e push para seu fork
 
 Abra um Pull Request descrevendo suas mudanças
 
-👨‍💻 Desenvolvido por Daniel 🚀
+👨‍💻 Desenvolvido por Carlos Daniel Rocha e João Carlos Vieira Junior 🚀
 Projeto aberto para colaboração.
 Em caso de dúvidas ou sugestões, fique à vontade para abrir Issues ou Pull Requests!

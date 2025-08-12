@@ -1,4 +1,5 @@
 {
+  "types": ["d3-array"],
   "compilerOptions": {
     "target": "ES2022",
     "lib": ["ES2023"],

@@ -1,7 +1,5 @@
 # Abrigo em Palavras
 
-Para visualização do site: https://abrigo-em-palavras.lovable.app/
-
 Aplicação web feita com React, TypeScript e Vite, com foco em fornecer informações, apoio e recursos úteis para quem precisa de orientação ou suporte.  
 
 Totalmente estilizada com TailwindCSS e shadcn-ui para garantir um visual moderno, responsivo e acessível.
